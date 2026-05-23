@@ -48,7 +48,7 @@ svg {
 }
 
 .nav {
-  width: min(1218px, calc(100% - 56px));
+  width: min(1186px, calc(100% - 56px));
   height: 86px;
   margin: 0 auto;
   display: grid;
@@ -80,32 +80,7 @@ svg {
 .brand-mark {
   width: 38px;
   height: 38px;
-  position: relative;
-  border-radius: 50%;
-  background: radial-gradient(circle at 50% 78%, transparent 0 8px, var(--gold) 9px 10px, transparent 11px);
 }
-
-.brand-mark::before,
-.brand-mark::after,
-.brand-mark i {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 6px;
-  width: 3px;
-  height: 28px;
-  background: var(--gold);
-  border-radius: 999px;
-  transform-origin: bottom center;
-}
-
-.brand-mark::before { transform: translateX(-50%) rotate(-45deg); }
-.brand-mark::after { transform: translateX(-50%) rotate(45deg); }
-.brand-mark i:nth-child(1) { transform: translateX(-50%) rotate(-25deg); }
-.brand-mark i:nth-child(2) { transform: translateX(-50%) rotate(0deg); }
-.brand-mark i:nth-child(3) { transform: translateX(-50%) rotate(25deg); }
-.brand-mark i:nth-child(4) { transform: translateX(-50%) rotate(-65deg); height: 22px; }
-.brand-mark i:nth-child(5) { transform: translateX(-50%) rotate(65deg); height: 22px; }
 
 .nav-links {
   justify-self: center;
@@ -171,7 +146,7 @@ svg {
 
 .hero {
   position: relative;
-  min-height: 572px;
+  min-height: 558px;
   overflow: hidden;
   color: #fff;
   background: var(--green-950);
@@ -189,13 +164,13 @@ svg {
 .hero-shell {
   position: relative;
   z-index: 1;
-  width: min(1218px, calc(100% - 56px));
+  width: min(1186px, calc(100% - 56px));
   margin: 0 auto;
-  min-height: 572px;
-  padding: 128px 0 0;
+  min-height: 558px;
+  padding: 126px 0 0;
   display: grid;
-  grid-template-columns: 334px minmax(360px, 505px);
-  gap: 60px;
+  grid-template-columns: 324px minmax(360px, 505px);
+  gap: 56px;
   align-items: start;
 }
 
@@ -205,7 +180,7 @@ svg {
 
 .portrait {
   width: 100%;
-  aspect-ratio: 0.82;
+  aspect-ratio: 0.752;
   object-fit: cover;
   object-position: center;
   border-radius: 22px;
@@ -266,7 +241,7 @@ p {
 .intro h1 {
   margin-bottom: 8px;
   color: #fff;
-  font-size: clamp(40px, 4vw, 54px);
+  font-size: clamp(40px, 3.85vw, 53px);
   line-height: 1.08;
   letter-spacing: 0;
 }
@@ -332,9 +307,9 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: clamp(42px, 7vw, 100px);
-  width: min(1148px, calc(100% - 72px));
+  width: min(1114px, calc(100% - 72px));
   margin: 0 auto;
-  padding: 50px 0 52px;
+  padding: 50px 0 66px;
 }
 
 .leaf-shadow {
@@ -490,7 +465,7 @@ p {
 .stats-card {
   position: relative;
   z-index: 1;
-  width: min(1210px, calc(100% - 72px));
+  width: min(1172px, calc(100% - 72px));
   min-height: 119px;
   margin: 0 auto;
   display: grid;
